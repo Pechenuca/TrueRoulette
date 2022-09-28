@@ -1,0 +1,162 @@
+/* .logo {
+    position: absolute;
+    width: 130px;
+    height: 90px;
+    background: #223232;
+} */
+html {
+    background-image: url("/img/back.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    backdrop-filter: blur(6px);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.form-control {
+    width: 350px;
+    height: 60px;
+    background: rgba(196, 196, 196, 0.01);
+    border: 2px solid #223232;
+    margin-bottom: 80px 0 0 0;
+    border-radius: 36px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 40px 39px 0 39px;
+
+}
+
+img {
+    padding-left: 149px;
+    padding-bottom: 50px;
+    padding-top: 130px;
+    padding-right: 149px;
+}
+
+.slogan {
+    color: #223232;
+    padding: 50px 0 0 0;
+    font-size: 20px;
+
+}
+
+.text {
+    color: #223232;
+    padding: 108px 0 0 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btn-proto {
+    width: 350px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 36px;
+    margin-left: 39px;
+    margin-right: 39px;
+    display: flex;
+
+    transition: all 0.2s ease;
+}
+.btn-proto:hover {
+    background: #F37632;
+}
+.black-btn {
+    margin-top: 135px;
+    color: #ffff;
+    background: #223232;
+
+}
+
+/* .transparent-btn {
+    background: rgba(196, 196, 196, 0.01);
+    border: 2px solid #223232;
+    
+} */
+
+#black-btn:hover {
+    background: #F37632;
+}
+
+#transparent-btn-index {
+    box-sizing: border-box;
+    background: rgba(196, 196, 196, 0.01);
+    border: 2px solid #223232;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+
+#black-btn-reg {
+    margin-bottom: 80px !important;
+    margin-top: 50px !important;
+}
+
+
+
+#black-btn-enter {
+    margin-bottom: 80px !important;
+    margin-top: 223px;
+}
+
+
+
+#black-btn-cab {
+    margin-top: 88px;
+}
+
+#transparent-btn-cab {
+
+}
+
+#blurred-btn-cab {
+    background: rgba(34, 50, 50, 0.2);
+    border-radius: 36px;
+    margin-top: 76px;
+}
+
+#blurred-btn-cab:hover {
+    background: #F37632;
+}
+
+.game-balance, .bank { 
+    justify-content: center;
+    margin-left: 39px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.black-btn-game {
+    margin
+}
+
+
+.login {
+    margin-top: 90px;
+    margin-left: 39px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.balance {
+    margin-top: 108px;
+    margin-left: 39px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.balanceNumber {
+    margin-top: 10px;
+    margin-left: 39px;
+    font-size: 50px;
+    font-weight: 450;
+}
